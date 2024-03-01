@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark to Grade Converter</title>
+    <link rel="stylesheet" type="text/css" href="grade.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mark to Grade Converter</h1>
+        <div class="input-container">
+            <input type="text" id="mark-input" placeholder="Enter mark">
+            <button onclick="convertToGrade()">Convert</button>
+        </div>
+        <div class="validation-message" id="validation-message"></div>
+        <div class="grade-result" id="grade-result"></div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Baani Baani. All rights reserved.</p>
+            <p id="current-date"></p>
+        </div>
+    </footer>
+
+    <script src="grade.js">
+    </script>
+</body>
+</html>
